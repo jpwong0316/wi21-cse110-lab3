@@ -93,7 +93,7 @@
     <nav>
       <form>
         <label>Number:
-          <input name="submitted-number" autocomplete="number">
+          <input type="name" name="submitted-number" autocomplete="number">
         </label>
         <button>Save</button>
       </form>
@@ -107,7 +107,7 @@
       </form>
       <input class="test button"
              type="button"
-             value="PRESS THE BIG RED BUTTON">
+             value="PRESS THE BIG BUTTON">
       <div>
         <input type="checkbox" id="alive" name="alive">
         <label for="alive">Are you alive?</label>
@@ -115,6 +115,26 @@
       <div>
         <input type="checkbox" id="ded" name="ded">
         <label for="ded">am ded</label>
+      </div>
+      <div>
+        <input type="color" id="favorite" name="favorite">
+        <label for="favorite">Favorite color</label>
+      </div>
+      <div>
+        <label for="today">Today's date:</label>
+        <input type="date" id="today" name="today"
+               value="2021-01-15"
+               min="2021-01-01" max="2021-12-31">
+      </div>
+      <div>
+        <label for="email">Gimme your gmail plz</label>
+        <input type="email" id="email"
+               pattern=".+@gmail.com" size="30" required>
+      </div>
+      <div>
+        <label for="month">Enter month</label>
+        <input type="month" id="month" name="month"
+               min="2021-01" value="2021-01">
       </div>
     </nav>
     <footer>
