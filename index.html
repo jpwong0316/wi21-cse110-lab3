@@ -63,6 +63,19 @@
           </picture>
           <figcaption>tis some pizza</figcaption>
         </figure>
+        <label for="food-select">Choose a food:</label>
+        <select id="food-select">
+          <optgroup label="Meat">
+            <option>Steak</option>
+            <option>Hamburger</option>
+            <option>Fried Chicken</option>
+          </optgroup>
+          <optgroup label="Noodles">
+            <option>Ramen</option>
+            <option>Chow Mein</option>
+            <option>Spaghetti</option>
+          </optgroup>
+        </select>
       </div>
     </section>
     <aside>
@@ -78,7 +91,12 @@
       </div>
     </aside>
     <nav>
-      
+      <form>
+        <label>Number:
+          <input name="submitted-number" autocomplete="number">
+        </label>
+        <button>Save</button>
+      </form>
     </nav>
     <footer>
       <p>testing canvas in footer</p>
