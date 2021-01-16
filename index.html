@@ -29,6 +29,11 @@
           O    O                        O    O
            ____                          ____
         </pre>
+        <label for="area">Wanna write some stuff?</label>
+        <textarea id="area" name="area"
+                  rows="4" cols="40">
+          Hello, write some stuff?
+        </textarea>
         <figure>
           <figcaption>Random audio</figcaption>
           <audio
@@ -93,7 +98,7 @@
     <nav>
       <form>
         <label>Number:
-          <input type="name" name="submitted-number" autocomplete="number">
+          <input type="text" name="submitted-number" autocomplete="number">
         </label>
         <button>Save</button>
       </form>
@@ -135,6 +140,17 @@
         <label for="month">Enter month</label>
         <input type="month" id="month" name="month"
                min="2021-01" value="2021-01">
+      </div>
+      <div>
+        <label for="num">Number off the top of your head? (1-1000)</label>
+        <input type="number" id="num" name="num"
+               min="1" max="1000">
+      </div>
+      <div>
+        <label for="pw">Stealing passwords longer than 10 length</label>
+        <input type="password" id="pw" name="pw"
+               minlength="10" required>
+        <input type="submit" value="Stealing password...">
       </div>
     </nav>
     <footer>
