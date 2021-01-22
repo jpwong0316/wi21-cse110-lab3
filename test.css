@@ -17,7 +17,7 @@ pre {
 }
 
 .blue {
-  color: hsl(223°, 90%, 61%);
+  color: hsl(223, 90, 61);
 }
 
 p.blue {
@@ -32,12 +32,12 @@ li[target="_color"] {
   color: red;
 }
 
-div + p {
-  background-color: green;
-}
-
 div ~ p {
   background-color: red;
+}
+
+div + p {
+  background-color: green;
 }
 
 div details {
