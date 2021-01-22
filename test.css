@@ -1,5 +1,6 @@
 * {
-  color: orange;
+  color: black;
+  text-align: left;
 }
 
 h1, h2, h3 {
@@ -33,4 +34,29 @@ li[target="_color"] {
 
 div + p {
   background-color: green;
+}
+
+div ~ p {
+  background-color: red;
+}
+
+div details {
+  text-align: right;
+  background-color: yellow;
+}
+
+figure > figcaption {
+  color: green;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
 }
