@@ -1,5 +1,36 @@
-p {
+* {
+  color: orange;
+}
+
+h1, h2, h3 {
+  color: rgb(158, 66, 245);
   text-align: center;
+}
+
+pre {
   color: red;
 }
 
+#list1 {
+  color: #e042f5;
+}
+
+.blue {
+  color: hsl(223°, 90%, 61%);
+}
+
+p.blue {
+  background-color: blue;
+}
+
+li[target] {
+  background-color: rgb(66, 245, 227, 0.5);
+}
+
+li[target="_color"] {
+  color: red;
+}
+
+div + p {
+  background-color: green;
+}
