@@ -13,8 +13,8 @@ h1, h2, h3 {
 
 /* margins for paragraph */
 p {
-  margin-top: 25mm;
-  margin-bottom: 3em;
+  margin-top: 5mm;
+  margin-bottom: 2em;
   margin-left: 2in;
   margin-right: 10ch;
 }
