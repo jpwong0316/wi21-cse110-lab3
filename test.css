@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 pre {
   color: red;
+  border:2px solid purple;
 }
 
 #list1 {
@@ -17,11 +18,12 @@ pre {
 }
 
 .blue {
-  color: hsl(223, 90, 61);
+  color: blue;
 }
 
 p.blue {
   background-color: blue;
+  color: white;
 }
 
 li[target] {
@@ -33,7 +35,7 @@ li[target="_color"] {
 }
 
 div ~ p {
-  background-color: red;
+  background-color: hsl(0, 90%, 61%);
 }
 
 div + p {
