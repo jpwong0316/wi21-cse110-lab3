@@ -1,64 +1,92 @@
+/* Set all text left-aligned and black */
 * {
   color: black;
   text-align: left;
 }
 
+/* header color to purple and centered */
 h1, h2, h3 {
   color: rgb(158, 66, 245);
   text-align: center;
+  margin: 2rem 2rem 3rem 3rem;
 }
 
+/* margins for paragraph */
+p {
+  margin-top: 25mm;
+  margin-bottom: 3em;
+  margin-left: 2in;
+  margin-right: 10ch;
+}
+
+/* red text, purple border */
 pre {
   color: red;
-  border:2px solid purple;
+  border: 1cm solid purple;
 }
 
+/* first list color and bordered using many border options */
 #list1 {
   color: #e042f5;
+  border-style: dashed;
+  border-width: medium;
+  border-color: yellow;
+  border-radius: 5px;
 }
 
+/* set text of class blue to color blue */
 .blue {
   color: blue;
 }
 
+/* set paragraphs to blue background and white text */
 p.blue {
   background-color: blue;
   color: white;
 }
 
+/* set bg color to cyan */
 li[target] {
   background-color: rgb(66, 245, 227, 0.5);
 }
 
+/* if target is color, bg cyan and text red */
 li[target="_color"] {
   color: red;
 }
 
+/* bg color red for sibling p of div */
 div ~ p {
   background-color: hsl(0, 90%, 61%);
 }
 
+/* bg color green for adjacent sibling p of div */
 div + p {
   background-color: green;
 }
 
+/* all details in div are right aligned and bg color yellow */
 div details {
   text-align: right;
   background-color: yellow;
 }
 
+/* all figcaptions to figures are text color green */
 figure > figcaption {
   color: green;
 }
 
+/* unvisited link is blue */
 a:link {
   color: blue;
 }
 
+/* visited link is purple */
 a:visited {
   color: purple;
 }
 
+/* link color is red when hovered over */
 a:hover {
   color: red;
 }
