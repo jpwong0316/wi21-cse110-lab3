@@ -43,6 +43,25 @@ p {
 .item {
   flex-grow: 1;
   flex-basis: auto;
+  background: red;
+  width: 100px;
+  height: 50px;
+  color: white;
+}
+
+.grid-template {
+  display: grid;
+  grid-template-columns: 50px 60px auto 100px;
+  grid-template-rows: 40% auto 50px;
+}
+
+.grid {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+  background-color: pink;
 }
 
 /* red text, purple border, margin, padding, height/width settings */
