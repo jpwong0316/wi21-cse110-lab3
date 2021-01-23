@@ -174,10 +174,3 @@ a:hover {
 a {
   display: block;
 }
-
-@media screen and (max-width: 400px) {
-  h1, h2, h3 {
-    background-color: red;
-    color: white: 
-  }
-}
