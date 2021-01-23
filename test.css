@@ -11,6 +11,17 @@ h1, h2, h3 {
   margin: 2rem 2rem 3rem 3rem;
 }
 
+h1 {
+  position: fixed;
+  top: 0;
+  left: 50px;
+}
+
+h2 {
+  position: relative;
+  right: 30px;
+}
+
 /* margins for paragraph */
 p {
   margin-top: 5mm;
@@ -27,6 +38,8 @@ pre {
   padding: 10px 10px 10px 10px;
   height: 100px;
   width: 50%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 /* first list color and bordered using many border options, padding */
