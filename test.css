@@ -87,6 +87,10 @@ figure > figcaption {
   color: green;
 }
 
+td {
+  display: inline;
+}
+
 /* unvisited link is blue */
 a:link {
   color: blue;
@@ -100,4 +104,8 @@ a:visited {
 /* link color is red when hovered over */
 a:hover {
   color: red;
+}
+
+a {
+  display: block;
 }
