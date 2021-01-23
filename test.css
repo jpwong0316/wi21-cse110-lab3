@@ -19,24 +19,33 @@ p {
   margin-right: 10ch;
 }
 
-/* red text, purple border */
+/* red text, purple border, margin, padding, height/width settings */
 pre {
   color: red;
   border: 1cm solid purple;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  height: 100px;
+  width: 50%;
 }
 
-/* first list color and bordered using many border options */
+/* first list color and bordered using many border options, padding */
 #list1 {
   color: #e042f5;
   border-style: dashed;
   border-width: medium;
   border-color: yellow;
   border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* set text of class blue to color blue */
 .blue {
   color: blue;
+  text-decoration: underline;
 }
 
 /* set paragraphs to blue background and white text */
@@ -45,9 +54,10 @@ p.blue {
   color: white;
 }
 
-/* set bg color to cyan */
+/* set bg color to cyan, overline on text */
 li[target] {
   background-color: rgb(66, 245, 227, 0.5);
+  text-decoration: overline;
 }
 
 /* if target is color, bg cyan and text red */
@@ -73,6 +83,7 @@ div details {
 
 /* all figcaptions to figures are text color green */
 figure > figcaption {
+  margin: auto;
   color: green;
 }
 
