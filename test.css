@@ -22,6 +22,10 @@ h2 {
   right: 30px;
 }
 
+h3.none {
+  display: none;
+}
+
 /* margins for paragraph */
 p {
   margin-top: 5mm;
@@ -38,7 +42,7 @@ pre {
   padding: 10px 10px 10px 10px;
   height: 100px;
   width: 50%;
-  max-width: 200px;
+  max-width: 500px;
   min-width: 100px;
 }
 
