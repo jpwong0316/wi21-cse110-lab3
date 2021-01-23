@@ -34,6 +34,17 @@ p {
   margin-right: 10ch;
 }
 
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
 /* red text, purple border, margin, padding, height/width settings */
 pre {
   color: red;
