@@ -4,6 +4,12 @@
   text-align: left;
 }
 
+@media screen and (min-width: 400px) {
+  body {
+    background-color: white;
+  }
+}
+
 /* header color to purple and centered */
 h1, h2, h3 {
   color: rgb(158, 66, 245);
