@@ -55,13 +55,31 @@ p {
   grid-template-rows: 40% auto 50px;
 }
 
-.grid {
+.grid1 {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
   justify-self: center;
   background-color: pink;
+}
+
+.grid2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: start;
+  background-color: red;
+}
+
+.grid3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: end;
+  background-color: orange;
 }
 
 /* red text, purple border, margin, padding, height/width settings */
